@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     //├────────┼────────┼────────┼────────┼────────┼────────┼────────┤         ├────────┼────────┼────────┼────────┼────────┼────────┼────────┤
         KC_TRNS, KC_PERC, KC_CIRC, KC_LBRC, KC_RBRC, KC_TILD, KC_TRNS,           KC_TRNS,   KC_P1,   KC_P2,   KC_P3, KC_PMNS, KC_PEQL, KC_TRNS, 
     //├────────┼────────┼────────┼────────┼────────┼────────┴────────┘         └────────┴────────┼────────┼────────┼────────┼────────┼────────┤
-        EEP_RST, KC_AMPR, KC_TRNS, KC_TRNS, KC_TRNS,                                                 KC_P0, KC_PDOT, KC_PPLS, KC_PENT,   TO(0),
+         HF_RST, KC_AMPR, KC_TRNS, KC_TRNS, KC_TRNS,                                                 KC_P0, KC_PDOT, KC_PPLS, KC_PENT,   TO(0),
     //└────────┴────────┴────────┴────────┴────────┘                                             └────────┴────────┴────────┴────────┴────────┘
     //                                               ┌────────┬────────┐     ┌────────┬────────┐
                                                        RGB_MOD, KC_TRNS,       RGB_TOG, RGB_M_P,
